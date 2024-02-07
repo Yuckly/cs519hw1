@@ -26,15 +26,15 @@ jobs:
         with:
           node-version: "18.x"
           cache: "npm"
-          cache-dependency-path: "./../Node/WEB/package.json"
+          cache-dependency-path: "/home/runner/work/cs519hw1/Node/WEB/package.json"
 
       - name: npm install, build, and test
-        working-directory: "./../Node/WEB"
+        working-directory: "/home/runner/work/cs519hw1/Node/WEB/"
         run: |
           ls
           npm install
 
-      - name: npm install react frontendworking-directory:./../Node/WEB/frontend }}
+      - name: npm install react frontendworking-directory:/home/runner/work/cs519hw1/Node/WEB/frontend }}
         run: |
           npm install
           npm run build
