@@ -29,7 +29,7 @@ jobs:
           cache-dependency-path: "./Node/WEB/package.json"
 
       - name: npm install, build, and test
-        working-directory: "./Node/WEB/"
+        working-directory: "./Node/WEB"
         run: |
           npm install
 
