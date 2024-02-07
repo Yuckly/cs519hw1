@@ -70,5 +70,5 @@ jobs:
         with:
           app-name: "cs519hw1"
           slot-name: "Production"
-          package: .
+          package: Node/WEB
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_3525AE4A540448FFBD49B0F54DE546C9 }}
